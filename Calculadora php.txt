@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 10;
+$y = 5;
+
+$soma = $x + $y;
+echo "<h2>Soma</h2>";
+echo "$x + $y = $soma";
+
+$subitracao = $x - $y;
+echo "<h2>Subitraçao</h2>";
+echo "$x - $y = $subitracao";
+?>
+
+</body>
+</html>

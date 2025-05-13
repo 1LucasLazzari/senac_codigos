@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 7;
+echo var_dump($x);
+$nome = "Lucas Lazzari";
+echo "<br>";
+echo ($nome);
+echo "<br>";
+echo var_dump ($nome);
+echo "<br>";
+$bool = false;
+echo var_dump ($bool);
+?>
+
+</body>
+</html>
