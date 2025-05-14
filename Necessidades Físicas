@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$nome = "Lucas";
+$idade = 15;
+$auditiva = "Não";
+$visual = "Sim";
+$cognitivo = "Nao";
+
+echo "<h1>Projeto Integrador</h1>";
+echo "<h2>Entrevista</h2>";
+echo "<br>";
+echo "<h2>Necessidade Física</h2>";
+echo "<h3> $nome possui necessidade auditiva?</h3>";
+echo ($auditiva);
+echo"<h3> $nome possui necessidade visual</h3>";
+echo ($visual);
+echo "<h3>$nome possui necessidades codnitivas?</h3>";
+echo ($cognitivas);
+
+?>
+
+</body>
+</html>
