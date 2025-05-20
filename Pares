@@ -1,0 +1,11 @@
+<?php
+        // comando for
+        echo "Escreve os numeros pares de 1 a 10 ";
+        echo "<br>";
+        for($i = 0;$i<=10;$i++){
+            if ($i % 2 == 0){
+                echo "$i";
+                echo "<br>";
+            }
+        }
+        ?>
