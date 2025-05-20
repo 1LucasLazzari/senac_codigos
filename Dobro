@@ -10,8 +10,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     </head>
     <body>
         <?php
-        for($i =1*2; $i <=10; $i++){
-        echo "$i <br>"; }
+        $num = 2;
+        for($i =1; $i <=10; $i++){
+            $r = $num * $i;
+            echo "$r <br>";
+        }
             
         
         
